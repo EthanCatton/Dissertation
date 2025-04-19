@@ -1,0 +1,15 @@
+To know which libraries are needed check the imports of the python file.
+
+One of the imports for keras flags as an error in the IDE used to make this code, if this occurs elsewhere the code should still run.
+
+The "rules" for the mitigation process, what the system looks for, are arbitrarily chosen to demonstrate the system, the values used have not
+been intentionally chosen to reflect signs of APTs from the dataset.
+
+Mitigation is currently set to run off all labelled APT records. To alter this to only use detection guess change the mode variable 
+in mitigation_rule(). 
+
+Most of the important variables to tuning are global variables allowing them to be changed all in one place under the imports.
+
+The two csvs used in detection are from the unravelled dataset. Check the dataset section of the paper for the reference.
+
+Analysis uses an example pdf as its input, see the dataset section for the reasoning.
