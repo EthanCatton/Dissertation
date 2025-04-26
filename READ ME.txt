@@ -13,3 +13,17 @@ Most of the important variables to tuning are global variables allowing them to 
 The two csvs used in detection are from the unravelled dataset. Check the dataset section of the paper for the reference.
 
 Analysis uses an example pdf as its input, see the dataset section for the reasoning.
+
+python: 3.11.9
+
+pandas: 2.1.3
+numpy: 1.26.2
+sklearn: 1.3.2
+keras: 3.9.0
+tensorflow: 2.18.0
+matplotlib: 3.8.2
+networkx: 3.2.1
+nltk: 3.9.1
+fitz: 1.25.3
+gensim: 4.3.3
+
