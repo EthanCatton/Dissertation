@@ -14,6 +14,8 @@ The two csvs used in detection are from the unravelled dataset. Check the datase
 
 Analysis uses an example pdf as its input, see the dataset section for the reasoning.
 
+When the LDA graph appears close it to continue the final section of code.
+
 python: 3.11.9
 
 pandas: 2.1.3
